@@ -39,6 +39,10 @@ from convex_hull_dac import convex_hull_divide_and_conquer
 hull = convex_hull_divide_and_conquer([(0,0), (1,0), (0,1), (1,1)])
 # hull is a list of Points (namedtuple with fields x,y) in CCW order.
 ```
+##How to run
+git clone https://github.com/abiy8/6212_Project2.git
+cd 6212_Project2
+
 
 ## Notes
 - Complexity: **O(n log n)** due to initial sort; merge is linear in hull sizes.
